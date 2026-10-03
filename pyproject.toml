@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "llm-observability-starter"
+version = "0.1.0"
+description = "Small tracing and metrics toolkit for LLM workflows"
+requires-python = ">=3.10"
+authors = [{name = "SunZhengjun"}]
+[tool.setuptools.packages.find]
+where = ["src"]
